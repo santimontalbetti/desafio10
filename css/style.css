@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* INICIO INDEX */
-
 .contenedor__inicio {
     background: url(../img/fondo01bri.jpg);
     width: 100%;
@@ -86,12 +84,15 @@
     text-align: center;
     color: black;
 }
+/* TRANSFORMACION Y TRANSICION */
 
 .frutas:hover {
     transform: scale(1.15);
     transition: all 1s;
 }
+/* TRANSFORMACION Y TRANSICION */
 
+/* ANIMACION */
 
 #txt__sobremi h4 {
     font-size: 15px;
@@ -120,6 +121,7 @@
         background-color: rgb(51, 51, 168);
     }
 }
+/* ANIMACION */
 
 .img__01 {
     width: 120px;
@@ -248,9 +250,10 @@ h3 {
     padding: 30px 30px;
 }
 
+/* TRANSFORMACION Y TRANSICION */
+
 .rotacion:hover {
     transition: all 1s;
     transform: rotate(15deg);
 }
-
-/* FIN INDEX */
+/* TRANSFORMACION Y TRANSICION */
