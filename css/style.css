@@ -9,13 +9,17 @@
 .contenedor__inicio {
     background: url(../img/fondo01bri.jpg);
     width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 5%
+    text-align: center;
+    padding-top: 15%;
 }
 
 .contenedor__inicio__titulo {
-    font-size: 36px;
+    font-size: 75px;
     font-family: 'Indie Flower';
     color: #ffffff
 }
@@ -30,6 +34,7 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .cabezera__logo {
@@ -37,20 +42,26 @@
     height: auto;
 }
 
+.logo__nav__cabezera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cabezera__nav ul {
-    font-size: 11px;
     margin: 0;
-    padding: 10px;
+    padding: 0;
     list-style: none;
-    text-align: center;
 }
 
 .cabezera__nav ul li {
     display: inline-block;
 }
 
+
 .cabezera__nav ul li a {
     display: block;
+    padding: 0.5rem 1rem
 }
 
 .cabezera__nav ul li a:hover {
@@ -59,6 +70,7 @@
 
 .footer {
     background: #f2f2f2;
+    padding: 4rem 0;
     text-align: center;
 }
 
@@ -68,7 +80,7 @@
 }
 
 .contenedor__sobremi__titulo {
-    font-size: 20px;
+    font-size: 45px;
     padding: 30px 30px;
     font-family: 'Indie Flower';
     text-align: center;
@@ -96,7 +108,7 @@
 
 .txt__01 {
     height: auto;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -106,12 +118,9 @@
     text-align: center;
     display: grid;
     grid-template-areas:
-        "lechuga"
-        "palta"
-        "tomate"
-        "zanahoria";
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat (4, 1fr);
+        "lechuga palta tomate zanahoria";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     justify-content: center;
     padding: 100px;
     gap: 25px;
@@ -136,7 +145,7 @@
 .contenedor__motores {
 
     text-align: center;
-    font-size: 25px;
+    font-size: 45px;
     font-family: 'Indie Flower';
     background: url(../img/fondo03bri.jpg);
     background-size: cover;
@@ -146,7 +155,7 @@
     color: white;
     width: 85%;
     margin: 0 auto;
-    padding: 100px 30px;
+    padding-bottom: 50px;
 }
 
 .contenedor__motores__txt {
@@ -156,12 +165,12 @@
     margin: 0 auto;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 22px;
     text-align: center;
 }
 
 .contenedor__productos__titulo {
-    font-size: 28px;
+    font-size: 50px;
     font-family: 'Indie Flower';
     text-align: center;
     color: black;
@@ -169,8 +178,8 @@
 }
 
 .img__productos {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
 }
 
 #productos {
@@ -179,12 +188,10 @@
     text-align: center;
     display: grid;
     grid-template-areas:
-        "humus"
-        "frutos"
-        "galletas"
-        "hamburguesa";
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat (4, 1fr);
+        "humus frutos"
+        "galletas hamburguesa";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, 1fr);
     justify-content: center;
     padding: 100px;
     gap: 25px;
@@ -208,8 +215,9 @@
 
 .contenedor__musicayletras {
     width: 100%;
+    margin: 100px auto;
     text-align: center;
-    font-size: 26px;
+    font-size: 35px;
     font-family: 'Indie Flower';
 }
 
