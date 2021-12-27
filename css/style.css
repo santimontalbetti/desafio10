@@ -1,0 +1,841 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* INICIO INDEX */
+
+.contenedor__inicio {
+    background: url(../img/fondo01bri.jpg);
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5%
+}
+
+.contenedor__inicio__titulo {
+    font-size: 36px;
+    font-family: 'Indie Flower';
+    color: #ffffff
+}
+
+.header {
+    color: #fff;
+    padding: 2rem 2rem;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.cabezera__logo {
+    width: 160px;
+    height: auto;
+}
+
+.cabezera__nav ul {
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.cabezera__nav ul li {
+    display: inline-block;
+}
+
+.cabezera__nav ul li a {
+    display: block;
+}
+
+.cabezera__nav ul li a:hover {
+    background: #cfcdcd;
+}
+
+.footer {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.contenedor__sobremi {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor__sobremi__titulo {
+    font-size: 20px;
+    padding: 30px 30px;
+    font-family: 'Indie Flower';
+    text-align: center;
+    color: black;
+}
+
+.frutas:hover {
+    transform: scale(1.15);
+    transition: all 1s;
+}
+
+
+#txt__sobremi h4 {
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.img__01 {
+    width: 120px;
+    height: 120px;
+}
+
+.txt__01 {
+    height: auto;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#txt__sobremi {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "lechuga"
+        "palta"
+        "tomate"
+        "zanahoria";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+    justify-content: center;
+    padding: 100px;
+    gap: 25px;
+}
+
+#lechuga {
+    grid-area: lechuga;
+}
+
+#palta {
+    grid-area: palta;
+}
+
+#tomate {
+    grid-area: tomate;
+}
+
+#zanahoria {
+    grid-area: zanahoria;
+}
+
+.contenedor__motores {
+
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Indie Flower';
+    background: url(../img/fondo03bri.jpg);
+    background-size: cover;
+}
+
+.contenedor__motores__titulo {
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+.contenedor__motores__txt {
+    width: 85%;
+    max-width: 850px;
+    height: 640px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contenedor__productos__titulo {
+    font-size: 28px;
+    font-family: 'Indie Flower';
+    text-align: center;
+    color: black;
+    padding: 30px 30px;
+}
+
+.img__productos {
+    width: 300px;
+    height: 300px;
+}
+
+#productos {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "humus"
+        "frutos"
+        "galletas"
+        "hamburguesa";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+    justify-content: center;
+    padding: 100px;
+    gap: 25px;
+}
+
+#humus {
+    grid-area: humus;
+}
+
+#frutos {
+    grid-area: frutos;
+}
+
+#galletas {
+    grid-area: galletas;
+}
+
+#hamburguesa {
+    grid-area: hamburguesa;
+}
+
+.contenedor__musicayletras {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Indie Flower';
+}
+
+h3 {
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 30px;
+}
+
+/* FIN INDEX */
+/* INICIO MEDIA QUERI */
+
+@media only screen and (min-width: 480px) {
+
+    .contenedor__inicio {
+        background: url(../img/fondo01bri.jpg);
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 10%
+    }
+
+    .contenedor__inicio__titulo {
+        font-size: 36px;
+        font-family: 'Indie Flower';
+        color: #ffffff;
+        padding-bottom: 50px;
+    }
+
+
+    .header a {
+        color: #000;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .cabezera__nav ul {
+        font-size: 18px;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+    }
+
+
+    .cabezera__nav ul li a {
+        display: block;
+    }
+
+
+    .footer {
+        display: block;
+        background: #f2f2f2;
+        text-align: center;
+    }
+
+    .contenedor__sobremi__titulo {
+        font-size: 30px;
+        padding: 30px 30px;
+        font-family: 'Indie Flower';
+        text-align: center;
+        color: black;
+    }
+
+    #txt__sobremi {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+            "lechuga palta"
+            "tomate zanahoria";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat (2, 1fr);
+        justify-content: center;
+        padding: 100px;
+        gap: 25px;
+    }
+
+    .contenedor__motores__titulo {
+        color: white;
+        width: 85%;
+        margin: 0 auto;
+        padding: 130px 30px;
+    }
+
+    .contenedor__motores__txt {
+        width: 85%;
+        max-width: 850px;
+        height: 640px;
+        margin: 0 auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    .contenedor__productos__titulo {
+        font-size: 28px;
+        font-family: 'Indie Flower';
+        text-align: center;
+        color: black;
+        padding: 30px 30px;
+    }
+
+    .img__productos {
+        width: 300px;
+        height: 300px;
+    }
+
+    #productos {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+            "humus"
+            "frutos"
+            "galletas"
+            "hamburguesa";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4, 1fr);
+        justify-content: center;
+        padding: 100px;
+        gap: 25px;
+    }
+
+    .contenedor__musicayletras {
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Indie Flower';
+    }
+
+    h3 {
+
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding: 30px 30px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .contenedor__inicio {
+        background: url(../img/fondo01bri.jpg);
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 25%;
+    }
+
+    .contenedor__inicio__titulo {
+        font-size: 75px;
+        font-family: 'Indie Flower';
+        color: #ffffff
+    }
+
+    .header a {
+        color: #000;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .logo__nav__cabezera {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabezera__nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+    .cabezera__nav ul li a {
+        display: block;
+        padding: 0.5rem 1rem
+    }
+
+
+    .footer {
+        background: #f2f2f2;
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .contenedor__sobremi__titulo {
+        font-size: 35px;
+        padding: 30px 30px;
+        font-family: 'Indie Flower';
+        text-align: center;
+        color: black;
+    }
+
+    #txt__sobremi {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+            "lechuga palta tomate zanahoria";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        padding: 100px;
+        gap: 25px;
+    }
+
+    .contenedor__motores {
+        width: 100%;
+        margin: 100px auto;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Indie Flower';
+        padding-top: 5rem;
+        background: url(../img/fondo03bri.jpg);
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .contenedor__motores__titulo {
+        color: white;
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .contenedor__motores__txt {
+        width: 85%;
+        max-width: 850px;
+        height: 640px;
+        margin: 0 auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    .contenedor__productos__titulo {
+        font-size: 40px;
+        font-family: 'Indie Flower';
+        text-align: center;
+        color: black;
+        padding: 30px 30px;
+    }
+
+    .img__productos {
+        width: 400px;
+        height: 400px;
+    }
+
+    #productos {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+            "humus"
+            "frutos"
+            "galletas"
+            "hamburguesa";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4, 1fr);
+        justify-content: center;
+        padding: 100px;
+        gap: 25px;
+    }
+
+    .contenedor__musicayletras {
+        width: 100%;
+        margin: 100px auto;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Indie Flower';
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    .contenedor__inicio {
+        background: url(../img/fondo01bri.jpg);
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .contenedor__inicio__titulo {
+        font-size: 75px;
+        font-family: 'Indie Flower';
+        color: #ffffff
+    }
+
+
+    .header a {
+        color: #000;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .logo__nav__cabezera {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabezera__nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .cabezera__nav ul li a {
+        display: block;
+        padding: 0.5rem 1rem
+    }
+
+    .footer {
+        background: #f2f2f2;
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .contenedor__sobremi__titulo {
+        font-size: 45px;
+        padding: 30px 30px;
+        font-family: 'Indie Flower';
+        text-align: center;
+        color: black;
+    }
+
+    #txt__sobremi {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+            "lechuga palta tomate zanahoria";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        padding: 100px;
+        gap: 25px;
+    }
+
+    .txt__01 {
+        height: auto;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contenedor__motores__titulo {
+        color: white;
+        width: 85%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .contenedor__motores__txt {
+        width: 85%;
+        max-width: 850px;
+        height: 640px;
+        margin: 0 auto;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contenedor__productos__titulo {
+        font-size: 50px;
+        font-family: 'Indie Flower';
+        text-align: center;
+        color: black;
+        padding: 30px 30px;
+    }
+
+    .img__productos {
+        width: 500px;
+        height: 500px;
+    }
+
+    #productos {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+            "humus frutos"
+            "galletas hamburguesa";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat (2, 1fr);
+        justify-content: center;
+        padding: 100px;
+        gap: 25px;
+    }
+
+    .contenedor__musicayletras {
+        width: 100%;
+        margin: 100px auto;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Indie Flower';
+    }
+
+}
+
+/* FIN MEDIA QUERIS */
+/* INICIO PAGINA SOBRE MI */
+
+.pagina__sobremi__inicio {
+    background: url(../img/fondosobremibri.jpg);
+    float: left;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 17%
+}
+
+.pagina__sobremi__titulo {
+    font-size: 75px;
+    font-family: 'Indie Flower';
+    color: #ffffff
+}
+
+.pagina__contenedor__sobremi {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Indie Flower';
+    padding-top: 5rem;
+}
+
+#sobremi {
+    width: 85%;
+    max-width: 850px;
+    height: auto;
+    margin: 100px auto;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "sobremi__txt"
+         "noe1";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+#noe1 {
+
+    grid-area: noe1;
+    width: 300px;
+
+}
+
+#sobremi__txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    grid-area: sobremi__txt;
+    padding: 40px;
+}
+
+/* FIN PAGINA SOBRE MI */
+/* INICIO PAGINA PRODUCTOS */
+
+.principal__productos__inicio {
+    background: url(../img/fondo04.jpg);
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 11%
+}
+
+.contenedor__titulo__pagina__productos {
+    font-size: 75px;
+    font-family: 'Indie Flower';
+    color: #ffffff
+}
+
+/* FIN PAGINA PRODUCTOS */
+/* INICIO PAGINA BLOG */
+
+.pagina__blog__inicio {
+    background: url(../img/fondo05bri.jpg);
+    float: left;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 17%;
+}
+
+.pagina__blog__titulo {
+    font-size: 75px;
+    font-family: 'Indie Flower';
+    color: #ffffff
+}
+
+/* FIN PAGINA BLOG */
+/* INICIO PAGINA CONTACTO */
+
+.pagina__contacto {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #a8a8a8;
+    border-color: #9e9e9e;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #000000;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+    font-family: 'Indie Flower';
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+/* FIN PAGINA CONTACTO */
